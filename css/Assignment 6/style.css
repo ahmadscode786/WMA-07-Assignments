@@ -1,0 +1,384 @@
+@font-face {
+    font-family: "newyork";
+    src: url(./assets/newyork/NewYork.ttf);
+}
+@font-face {
+    font-family: "sfmono";
+    src: url(./assets/sfmono/SFMonoRegular.otf);
+}
+
+body {
+    font-family: "newyork";
+    font-family: "sfmono";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* ------------------- Start of navbar  ----------------------- */
+nav {
+    width: 100vw;
+    height: 4vh;
+    box-shadow: 0vw 1vh 0vw 0vh #00000029;
+    padding: 3.849vh 3.9993vw 3.849vh 1.999vw ;
+
+}
+nav h2{
+    display: inline;
+    letter-spacing: 1vw;
+    font-weight: 500;
+}
+span > ul {
+    margin-left: 39vw;
+    display: inline;
+}
+
+#navlinks > li{
+    display: inline-block; 
+    list-style: none;
+    text-decoration: none;
+    margin: 0vh 1vw;
+}
+li > a {
+    text-decoration: none;
+    color: black;
+}
+/* -------------------start of first heading   ----------------------- */
+.para1{
+    width: 60.33vw;
+    height: 24.58vh;
+    font-family: "newyork";
+    font-size: 3.79vw;
+    font-weight: 700;
+    line-height: 8.19vh;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 19.69vw;
+}
+/* -------------------Start of paragraph number 2  ----------------------- */
+#nw{
+    text-align: center;
+    font-family: "sfmono";
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 5.15vh;
+    letter-spacing: 0em;
+    width: 44.02vw;
+    height: 10.31vh;
+    padding-left: 28.6vw;
+}
+/* -------------------  ----------------------- */
+/* -------------------Start of first image  ----------------------- */
+#imo{
+    width: 101.2vw;
+    height: 136.5vh;
+}
+
+.line-brake {
+    width: 44.3vw;
+    border: 2px solid #000000;
+    margin-left: 27.6vw;
+}
+/* --------- after first hr start of Mika img and head  -------------- */
+#mika {
+    width: 3.9vw;
+    height: 8.4vh;
+    margin-left: 28.1vw;
+    border-radius: 50%;
+}
+
+#mikmain{
+    display: flex;
+}
+
+#para3{
+    width: 13.4vw;
+    height: 6.9vh;
+    padding-left: 1.1vw;
+    margin-top: -2.5vh;
+}
+#pera3 > h3 {
+    font-weight: 700;
+    size: 1.1vw;
+    line-height: 2.8vh;
+    letter-spacing: 5%;
+
+}
+#selectpara3{
+    margin-top: -2vh;
+    width: 20.4vw;
+    height: 2.8vh;
+}
+
+#mainicone {
+    display: flex;
+    margin-left: 15.50vw;
+
+}
+.icondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1vh solid grey;
+    height: 6.6vh;
+    width: 4.9vw;
+    
+}
+.iconeboximg {
+    height: 3.0vh;
+    width: 1.4vw;
+    
+}
+
+/* ------------------ paragraph number 4  ----------------- */
+
+#para4{ 
+    width: 45.0vw;
+    height: 36.1;
+    margin-left: 28.1vw;
+    font-family: New York MEdium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 3.4vh;
+}
+/* ------------------ paragraph number 5  ----------------- */
+
+#para5 > h2 {
+    font-family: "";
+    font-size: 2.2vw;
+    font-weight: 700;
+    line-height: 7.7vh;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 20.2vw;
+    height: 7.7vh;
+    padding-left: 28.1vw;    
+}
+
+#para5 > p {
+    width: 45.0vw;
+    height: 34.5vh;
+    padding-left: 28.1vw;
+    margin-top: -1vh;
+    font-family: New York Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* ---------- Image of Aenean and paragraph  ---------- */
+#imgaenean > img {
+    width: 60.0vw;
+    height: 84.4vh;
+    margin-left: 20.6vw;
+    margin-top: 3vh;
+}
+#imgaenean > p {
+    width: 33.8vw;
+    height: 6.6vh;
+    margin-left: 33.6vw;
+    font-family: "newyork";
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 3.3vh;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.para6 > p {
+    width: 45.0vw;
+    height: 41.2vh;
+    margin-left: 28.1vw;
+    font-family: "newyork";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 7vh;
+
+
+}
+/* ---------- Starting p tag with Ul  ---------- */
+.paralist{
+    margin-left: 28.1vw;
+    width: 45.0vw;
+    height: 5.1vh;
+    margin-left: 28.1vw;
+    padding-top: 9vh;
+    font-family: "newyork";
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 5.1vh;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.unlist{
+    margin-left: 28.8vw;
+    width: 41.3vw;
+    height:25vh;
+    padding-top: 3.4vh;
+    list-style: square;
+}
+.unlistlist > li {
+    
+    font-family: "newyork" !important;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 5.1vh;
+    letter-spacing: 0em;
+    text-align: left;   
+    margin-bottom: 2vh ; 
+}
+.para7 > p {
+    width: 40.0vw;
+    height: 10.3vh;
+    padding-left: 28.1vw;
+    padding-top: 7.8vh;
+    font-family: "newyork";
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 5.1vh;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.para8 > p{
+    height: 10.3vh;
+    padding-left: 28.1vw;
+    padding-top: 7.8vh;
+    font-family: "newyork";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.para8{
+    width: 43vw;
+}
+/* ---------- Starting blog share fb twi ---------- */
+.blogsharebtn {
+    width: 45.0vw;
+    height: 9.7vh;
+    margin-left: 28.1vw;
+    margin-top: 11.6vh;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px 0px #00000014;
+    border-color:linear-gradient(0deg, #EAEAEA, #EAEAEA),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);    
+}
+
+#blogfbshr{  
+    width: 11.6vw;
+    /* height: 3.9vh; */
+    display: inline;
+    margin-left:4.9vw;
+    margin-top: 2.8vh;
+    margin-bottom: 2.8vh;
+    justify-content: center;
+
+}
+#blogfbshr > img {
+    padding-top: 0.006vh;
+    height: 3.0vh;
+    width: 1.4vw;
+    padding-top: 25px;
+    display: inline-block;
+    
+}
+#blogfbshr > p {
+    margin-left: 1.1vw;
+    font-family: "sfmono";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    display: inline-block;
+}
+
+#blogtwishr{
+    display: inline;
+    margin-left:2vw;
+    margin-top: 2.8vh;
+    margin-bottom: 2.8vh;
+    /* justify-content: center; */
+    border-left: #000000 solid;
+    height: 100% ;
+}
+
+#blogtwishr > img {
+    margin-left: 5.6vw;
+    width: 1.5vw;
+    height: 2.7vh;
+    display: inline-block;
+}
+#blogtwishr > p {
+    margin-left: 1.1vw;
+    font-family: "sfmono";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    display: inline-block;
+}
+/* ---------- Starting tags and hr  ---------- */ 
+
+.tags {
+    margin-left: 28vw;
+    margin-top: 4.8vh;
+}
+.tags > p {
+    font-family: "sfmono";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+#hrdoted {
+    margin-top: 5.1vh;
+    border-top: 3px dotted #000000;
+    width: 45vw;
+    margin-left: 28.1vw;
+}
+
+.mika2 {
+    margin-left: 28.1vw;
+    display: flex;
+}
+
+.mika2 > img {
+    height: 10.6vh;
+    width: 4.9vw;
+    margin-top: 5.4vh;
+    border-radius: 50%;
+}
+
+.mika2 > p {
+    margin-top: 4.8vh;
+    margin-left: 1.6vw;
+    width: 38.1vw;
+    font-family: "newyork";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#hreye{
+    width: 100%;
+    margin-top: 20vh;
+    border: 1px solid;
+}
+
+#eyhr{
+    width: 5%;
+    margin-top: -5vh;
+    margin-left: 47.7vw
+}
